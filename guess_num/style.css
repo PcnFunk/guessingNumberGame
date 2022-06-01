@@ -1,0 +1,35 @@
+body{
+  text-align: center;
+  font-family: Helvetica;
+}
+h1{
+  border-bottom: 2px solid;
+}
+p{
+  font-size: 20px;
+}
+#guess{
+  font-size: 30px;
+}
+#choice{
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  text-align: center;
+}
+#submitBtn{
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+#submitBtn:hover{
+  cursor: pointer;
+  background-color: silver;
+}
+#submitBtn:active{
+  cursor: pointer;
+  background-color: grey;
+}
